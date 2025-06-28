@@ -22,3 +22,10 @@
 
   ```sql
   CREATE DATABASE trading;
+
+### Steps to Follow for Merge Main to Develop
+```aiignore
+git checkout main
+git merge develop
+git push origin main
+```
