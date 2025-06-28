@@ -22,3 +22,5 @@
 
   ```sql
   CREATE DATABASE trading;
+
+!!
