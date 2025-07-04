@@ -75,7 +75,6 @@ public class AppConfig {
 	                .cors(cors -> cors.configurationSource(corsConfigurationSource()));
 	               
 
-			http.addFilterBefore(new JwtTokenGenerator(), BasicAuthenticationFilter.class);
 			return http.build();
 			
 		}
